@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="catalogsearch.leftnav" template="SummaTheme_LayeredNavigation::layer/view.phtml">
+            <block class="SummaTheme\LayeredNavigation\Block\Navigation\FilterPriceRenderer" name="catalogsearch.navigation.renderer.price"
+                   ifconfig="summa_theme/catalog/price_filter_slider" as="price.renderer" template="SummaTheme_LayeredNavigation::layer/filter_price.phtml">
+                <arguments>
+                    <argument name="product_layer_view_model" xsi:type="object">Magento\LayeredNavigation\ViewModel\Layer\Filter</argument>
+                </arguments>
+            </block>
+        </referenceBlock>
+    </body>
+</page>

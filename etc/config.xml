@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <summa_theme>
+            <catalog>
+                <price_filter_slider>1</price_filter_slider>
+            </catalog>
+        </summa_theme>
+    </default>
+</config>
